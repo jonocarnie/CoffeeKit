@@ -28,6 +28,9 @@
 		FB61F62F18F8FC2B00C6391E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB61F62E18F8FC2B00C6391E /* Security.framework */; };
 		FB61F63118F8FC3C00C6391E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB61F63018F8FC3C00C6391E /* SystemConfiguration.framework */; };
 		FB61F63418F9012B00C6391E /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61F63318F9012B00C6391E /* Venue.m */; };
+		FB61F63818F91DD200C6391E /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61F63718F91DD200C6391E /* Location.m */; };
+		FB61F63B18F92B7100C6391E /* VenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61F63A18F92B7100C6391E /* VenueCell.m */; };
+		FB61F63E18F92ECB00C6391E /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61F63D18F92ECB00C6391E /* Stats.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,12 @@
 		FB61F63018F8FC3C00C6391E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FB61F63218F9012B00C6391E /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
 		FB61F63318F9012B00C6391E /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		FB61F63618F91DD200C6391E /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		FB61F63718F91DD200C6391E /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		FB61F63918F92B7100C6391E /* VenueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueCell.h; sourceTree = "<group>"; };
+		FB61F63A18F92B7100C6391E /* VenueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueCell.m; sourceTree = "<group>"; };
+		FB61F63C18F92ECB00C6391E /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		FB61F63D18F92ECB00C6391E /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,8 +238,14 @@
 		FB61F63518F9014900C6391E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FB61F63918F92B7100C6391E /* VenueCell.h */,
+				FB61F63A18F92B7100C6391E /* VenueCell.m */,
 				FB61F63218F9012B00C6391E /* Venue.h */,
 				FB61F63318F9012B00C6391E /* Venue.m */,
+				FB61F63618F91DD200C6391E /* Location.h */,
+				FB61F63718F91DD200C6391E /* Location.m */,
+				FB61F63C18F92ECB00C6391E /* Stats.h */,
+				FB61F63D18F92ECB00C6391E /* Stats.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -372,7 +387,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB61F5F518F8EFB200C6391E /* JMCMasterViewController.m in Sources */,
+				FB61F63B18F92B7100C6391E /* VenueCell.m in Sources */,
+				FB61F63818F91DD200C6391E /* Location.m in Sources */,
 				FB61F63418F9012B00C6391E /* Venue.m in Sources */,
+				FB61F63E18F92ECB00C6391E /* Stats.m in Sources */,
 				FB61F5EB18F8EFB200C6391E /* main.m in Sources */,
 				FB61F5EF18F8EFB200C6391E /* JMCAppDelegate.m in Sources */,
 			);
