@@ -15,7 +15,6 @@
 		FB61F5EF18F8EFB200C6391E /* JMCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61F5EE18F8EFB200C6391E /* JMCAppDelegate.m */; };
 		FB61F5F218F8EFB200C6391E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB61F5F018F8EFB200C6391E /* Main.storyboard */; };
 		FB61F5F518F8EFB200C6391E /* JMCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61F5F418F8EFB200C6391E /* JMCMasterViewController.m */; };
-		FB61F5F818F8EFB200C6391E /* JMCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61F5F718F8EFB200C6391E /* JMCDetailViewController.m */; };
 		FB61F5FA18F8EFB200C6391E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB61F5F918F8EFB200C6391E /* Images.xcassets */; };
 		FB61F60118F8EFB200C6391E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB61F60018F8EFB200C6391E /* XCTest.framework */; };
 		FB61F60218F8EFB200C6391E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB61F5DE18F8EFB200C6391E /* Foundation.framework */; };
@@ -48,8 +47,6 @@
 		FB61F5F118F8EFB200C6391E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB61F5F318F8EFB200C6391E /* JMCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMCMasterViewController.h; sourceTree = "<group>"; };
 		FB61F5F418F8EFB200C6391E /* JMCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCMasterViewController.m; sourceTree = "<group>"; };
-		FB61F5F618F8EFB200C6391E /* JMCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMCDetailViewController.h; sourceTree = "<group>"; };
-		FB61F5F718F8EFB200C6391E /* JMCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCDetailViewController.m; sourceTree = "<group>"; };
 		FB61F5F918F8EFB200C6391E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB61F5FF18F8EFB200C6391E /* CoffeeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB61F60018F8EFB200C6391E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -120,8 +117,6 @@
 				FB61F5F018F8EFB200C6391E /* Main.storyboard */,
 				FB61F5F318F8EFB200C6391E /* JMCMasterViewController.h */,
 				FB61F5F418F8EFB200C6391E /* JMCMasterViewController.m */,
-				FB61F5F618F8EFB200C6391E /* JMCDetailViewController.h */,
-				FB61F5F718F8EFB200C6391E /* JMCDetailViewController.m */,
 				FB61F5F918F8EFB200C6391E /* Images.xcassets */,
 				FB61F5E518F8EFB200C6391E /* Supporting Files */,
 			);
@@ -255,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB61F5F818F8EFB200C6391E /* JMCDetailViewController.m in Sources */,
 				FB61F5F518F8EFB200C6391E /* JMCMasterViewController.m in Sources */,
 				FB61F5EB18F8EFB200C6391E /* main.m in Sources */,
 				FB61F5EF18F8EFB200C6391E /* JMCAppDelegate.m in Sources */,
