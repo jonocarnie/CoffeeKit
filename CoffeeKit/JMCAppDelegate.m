@@ -7,6 +7,8 @@
 //
 
 #import "JMCAppDelegate.h"
+#import <RestKit/RestKit.h>
+
 
 @implementation JMCAppDelegate
 
