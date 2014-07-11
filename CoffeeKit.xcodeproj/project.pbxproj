@@ -614,6 +614,7 @@
 				FB61F61218F8EFB300C6391E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB61F61318F8EFB300C6391E /* Build configuration list for PBXNativeTarget "CoffeeKitTests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +623,7 @@
 				FB61F61518F8EFB300C6391E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
